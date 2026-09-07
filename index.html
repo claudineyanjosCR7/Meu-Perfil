@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="/Meuperfil/style.css">
+
+    <!-- box icons -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <a href="https://wa.me/5511977534674" target="_blank" id="whatsapp-button" aria-label="Fale no WhatsApp">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+          </a>
+
+    <!--Idioma site -->
+    <!--button id="btn-pt">Português</button>
+    <button id="btn-en">English</button -->
+
+    <!-- header desing -->
+     <header class="header">
+        <a href="#" class="logo"> Claudiney.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active"data-i18n= "nav_home">Home</a>
+            <a href="#about"data-i18n= "nav_about">About</a>
+            <a href="#education"data-i18n= "nav_education">Education</a>
+            <a href="#skills"data-i18n= "nav_skills">Skills</a>
+            <a href="#contact"data-i18n= "nav_contact">Contact</a>
+
+            <span class ="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+
+        <div class="lang-switcher">
+  <button onclick="changeLanguage('en')">English</button>
+  <button onclick="changeLanguage('pt')">Português</button>
+  </div>
+     </header>
+
+
+
+     <!-- home section design -->
+      <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1 data-i18n="home_hi">Hi, I'm <span>Claudiney</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3 data-i18n="home_hole">Frontend Developer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p data-i18n="home_description">I'm a dedicated person, focused on personal and professional growth,
+             with an ease of learning and adapting to new challenges. I constantly strive
+             to evolve and contribute positively wherever I go.
+            <span class="animate" style="--i:4;"></span>
+            </p>
+
+            <div class="btn-box">
+                <a href="#contact" class="btn" data-i18n= "btn_hire me">Hire Me</a>
+                <a href="#about" class="btn" data-i18n= "btn_let's talk">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+<div class="home-sci">
+    <a href="https://www.facebook.com/claudiney.ronaldo/" target="_blank"><i class='bx bxl-facebook' aria-hidden="true" ></i></a>
+    <a href="https://www.instagram.com/cr7_systemcall/" target="_blank"><i class='bx bxl-instagram' aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/claudiney-anjos-124012230/" target="_blank"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+    <a href="https://github.com/claudineyanjosCR7" target="_blank"><i class='bx bxl-github' aria-hidden="true" ></i></a>
+    <span class="animate" style="--i:6;"></span>
+</div>
+
+<div class="home-imgHover"></div>
+<span class="animate home-img" style="--i:7;"></span>
+</section>
+
+<!-- about section design -->
+
+<section class="about" id="about">
+    <h2 class="heading" data-i18n="about_title">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+<div class="about-img">
+        <img src="/img/NEY1.png" alt="">
+        <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i:2;"></span>
+    </div>
+
+    <div class="about-content">
+        <h3 data-i18n="about_role">Frontend Developer!<span class="animate scroll" style="--i:3;"></span></h3>
+        <p data-i18n="about_description">My name is Claudiney Ronaldo, I am 37 years old, married, and the father of a 10-year-old girl.
+        I am currently a university student, and I like to balance my studies with my passions, 
+        such as drawing and playing the guitar. I also love playing soccer—it helps me relax and stay active.
+
+        I consider myself an empathetic and proactive person, always ready to help those in need. 
+        I am very responsible, both in my personal commitments and academic ones, and I’m always 
+        seeking ways to improve and learn more. I enjoy getting involved in projects that challenge me, 
+        and I believe teamwork is essential to achieving better results.
+
+        In the academic environment, I am determined to grow and develop, always looking for new ways to apply my knowledge. 
+        I have leadership and teamwork skills, and I am committed to the causes I believe in. 
+        I’m always ready to support my colleagues and strive to learn practical and innovative solutions.
+
+        I think it’s important to balance personal and academic life, and I’m always looking for ways to grow
+        and apply what I’m learning. I want to keep moving forward, combining my skills to contribute wherever I am.
+        I am a Frontend Developer passionate about creating engaging and functional digital experiences.
+        With a solid background in HTML, CSS, and JavaScript, I am always seeking new challenges and opportunities
+        to improve my skills and contribute to innovative projects.
+        <span class="animate scroll" style="--i:4;"></span>
+        </p>
+
+        <div class="btn-box btns">
+            <a href="#" class="btn" data-i18n="about_readmore">Read More</a>
+            <span class="animate scroll" style="--i:5;"></span>
+        </div> 
+    </div>
+</section>
+
+<!-- education section design -->
+<section class="education" id="education">
+    <h2 class="heading" data-i18n="education_title">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="education-row">
+        <div class="education-column">
+            <h3 class="title" data-i18n="education_subtitle">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="edu_course1">Computer Systems and Security - UAM</h3>
+            <p data-i18n="edu_desc1">Business Administration Technician at Colegio Renil, focused on Marketing and People Management.</p>
+        </div>
+    </div>
+
+         <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="edu_course2">Computational Environments and Connectivity - UAM</h3>
+            <p data-i18n="edu_desc2">Information Systems degree at Anhembi Morumbi, focused on HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+    <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="edu_course3">Software Quality Management - UAM</h3>
+            <p data-i18n="edu_desc3">Computer Science degree at Anhembi Morumbi, focused on HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+    <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="edu_course4">Models, Methods and Techniques of Software Engineering - UAM</h3>
+            <p data-i18n="edu_desc4">Frontend Development degree at Universidade ABC, focused on HTML, CSS and JavaScript.</p>
+        </div>
+     </div>
+
+    <span class="animate scroll" style="--i:3;"></span>
+  </div>
+</div>
+
+
+    <!-- experience section design -->
+    <div class="education-column">
+            <h3 class="title" data-i18n="experience_subtitle">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+     <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="exp_course1">Distributed and Mobile Systems - UAM</h3>
+            <p data-i18n="exp_desc1">Frontend Development degree at Universidade ABC, focused on HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="exp_course2">Usability, Web Development, Mobile and Games - UAM</h3>
+            <p data-i18n="exp_desc2">Frontend Development degree at Universidade ABC, focused on HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+            <h3 data-i18n="exp_course3">Artificial Intelligence - UAM</h3>
+            <p data-i18n="exp_desc3">Frontend Development degree at Universidade ABC, focused on HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2021</div>
+                <h3 data-i18n="exp_course4">Enterprise Architectures - UAM</h3>
+                <p data-i18n="exp_desc4">Frontend Development degree at Universidade ABC, focused on HTML, CSS and JavaScript.</p>
+            </div>
+        </div>
+
+        <span class="animate scroll" style="--i:6;"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- skills section design -->
+<section class="skills" id="skills">
+    <h2 class="heading" data-i18n="skills_title">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="skills-row">
+        <div class="skills-column">
+            <h3 class="title" data-i18n="skills_coding">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+    <div class="skills-box">
+        <div class="skills-content">
+            <div class="progress">
+                <h3 data-i18n="skill_html">HTML<span>90%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_css">CSS<span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_js">JavaScript<span>65%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_python">Python<span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+       <span class="animate scroll" style="--i:3;"></span>
+    </div>
+ </div>
+
+ <div class="skills-column">
+            <h3 class="title" data-i18n="skills_professional">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+    <div class="skills-box">
+        <div class="skills-content">
+            <div class="progress">
+                <h3 data-i18n="skill_webdev">Web Development<span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_webdesign">Web Design<span>67%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_graphic">Graphic Design<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3 data-i18n="skill_seo">SEO Marketing<span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+          </div>
+
+        <span class="animate scroll" style="--i:6;"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading" data-i18n="contact_title" >Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" data-i18n="contact_name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" data-i18n="contact_email" required>
+                <span class="focus"></span>
+            </div>
+            
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="Number" placeholder="Mobile Number" data-i18n="contact_mobile" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" data-i18n="contact_subject" required>
+                <span class="focus"></span>
+            </div>
+
+            <span class="animate scroll" style="--i:5;"></span>
+        </div>
+
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" data-i18n="contact_message" required></textarea>
+            <span class="focus"></span>
+
+            <span class="animate scroll" style="--i:7;"></span>
+        </div>
+
+        <div class="btn-box btns">
+            <button type="submit" class="btn" data-i18n="contact_submit">Submit</button>
+
+            <span class="animate scroll" style="--i:9;"></span>
+        </div>
+    </form>
+</section>
+
+<!-- footer section design -->
+<footer class="footer">
+    <div class="footer-text">
+        <p data-i18n="footer_text">Copyright &copy; 2026 by Claudiney - DarkCom | All rights reserved.</p>
+        
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        
+    </div>
+</footer>
+
+     <script src="/Meuperfil/script.js"></script>
+    
+</body>
+</html>
